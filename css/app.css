@@ -1,0 +1,35 @@
+body {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-size: 16px;
+    font-family: 'Poppins', sans-serif;
+    background-color: gainsboro;
+}
+
+h1 {
+    font-size: 3em;
+    color: navy;
+}
+
+.joke-container {
+    display: flex;
+    width: 50%;
+    padding: 1.5em;
+    margin: 1.5em;
+    background-color: navy;
+    color: white;
+    border-radius: 50px;
+    flex-direction: column;
+    font-size: 2em;
+}
+
+.joke-button {
+    font-size: 2em;
+    background-color: mediumvioletred;
+    color: white;
+    padding: 1em;
+    border: none;
+    border-radius: 25px;
+}
